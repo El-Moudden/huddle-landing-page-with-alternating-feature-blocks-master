@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+header {
+    
+    background-image: url(./images/bg-hero-desktop.svg);
+    height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container header .links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container header .links img {
+    width: 200px;
+}
+.container header .links a button {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #cdc9c9;
+    font-family: 'Poppins', sans-serif;
+}
+.container header .header-content {
+    display: flex;
+    align-items: center;
+}
+.container header .header-content .desc {
+    padding-right: 100px;
+    height: fit-content;
+    
+}
+.container header .header-content .desc h1 {
+    font-size: 35px;
+    font-weight: 700;
+    padding-right: 136px;
+    margin-bottom: 20px;
+}
+.container header .header-content .desc p {
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.container header .header-content .desc a button {
+    width: 275px;
+    height: 50px;
+    background-color: #fe52c0ff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #cdc9c9;
+    color: white;
+    font-size: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container header .header-content img {
+    width: 50%;
+}
+
+
+.container section {
+    padding-top:150px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.container section .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.container section .card {
+    height: 450px;
+    display: flex;
+    box-shadow: 2px 2px 5px #cdc9c9;
+    border-radius: 10px;
+    
+}
+.container section .card .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 150px;
+}
+.container section .card .card-content h2 {
+    margin-bottom: 20px;
+}
+.container section .card .card-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #94999dff;
+
+
+}
+.container section .card img {
+    height: 100%;
+}
+
+.container section .buble {
+    width: 800px;
+    height: 280px;
+    box-shadow: 2px 2px 5px #cdc9c9;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+    position: relative;
+    top: 115px;
+    z-index: 1;
+    background: white;
+
+}
+.container section .buble h2 {
+    font-size: 35px;
+}
+
+.container section .buble a button {
+
+    width: 275px;
+    height: 50px;
+    background-color: #fe52c0ff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #cdc9c9;
+    color: white;
+    font-size: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+footer {
+    background-color: #00252eff;
+    width: 100%;
+    padding:200px 50px 50px 50px ;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer .logo {
+    width: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+footer .columns {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 100px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+footer .columns .column1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .columns .column1 .location {
+    display: flex;
+}
+
+footer .columns .column1 .location img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+footer .columns .column1 .phone {
+    display: flex;
+    align-items: center;
+}
+
+footer .columns .column1 .phone img {
+    /* width: 25px; */
+    height: 15px;
+    margin-right: 15px;
+}
+
+footer .columns .column1 .mail {
+    display: flex;
+    align-items: center;
+}
+
+footer .columns .column1 .mail img {
+    /* width: 15px; */
+    height: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+footer .columns .column2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .columns .column3 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .columns .column4 {
+
+    display: flex;
+    gap: 20px;
+}
+
+footer .columns .column4 i {
+    font-size: 25px;
+    border-radius: 50%;
+
+}
+footer .paragraph {
+    color: white;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@media (max-width:667px) {
+
+    .container {
+
+        width: 375px;
+        
+        display: flex;
+        flex-direction: column;
+        /* height: fit-content; */
+    }
+    header {
+        padding: 20px 20px;
+        width: 375px;
+    }
+    .container header .links {
+
+        width: 375px;
+        padding: 0 20px;
+
+
+    }
+    .container header .links img {
+        width: 100px;
+    }
+    .container header .links a button {
+        height: 35px;
+        width: 120px;
+        font-weight: bold;
+    }
+
+    .container header .header-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .container header .header-content .desc {
+        padding-right: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container header .header-content .desc h1 {
+        font-size: 25px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .container header .header-content .desc p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .container header .header-content .desc a button {
+        margin-bottom: 50px;
+        text-align: center;
+
+    }
+    .container header .header-content img {
+        width: 100%;
+    }
+
+    .container section {
+        padding: 150px 20px 0 20px;
+        width: 100%;
+        
+    }
+    .container section .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin: 0;
+
+    }
+
+    
+.container section .card {
+    height: 600px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    width: 100%;  
+}
+.container section .cardi {
+    flex-direction: column;
+     
+}
+
+.container section .card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+.container section .card img {
+    width: 310px;
+    height: 310px;
+}
+
+.container section .card .card-content p {
+    text-align: center;
+
+
+}
+
+.container section .buble {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 60px;
+    
+    }
+
+.container section .buble h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container section .buble a button {
+
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+}
+footer {
+    background-color: #00252eff;
+    width: 100%;
+    padding:200px 20px 50px 20px ;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer .columns {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+
+
+}
+footer .columns .column1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+footer .columns .column1 .location p {
+    text-align: left;
+}
+
+footer .columns .column2 p {
+    text-align: left;
+}
+footer .columns .column3 p {
+    text-align: left;
+}
+
+footer .columns .column4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+footer .paragraph {
+    text-align: center;
+    font-size: 14px;
+}
+
+}
